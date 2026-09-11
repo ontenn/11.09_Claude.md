@@ -100,7 +100,8 @@ button{cursor:pointer}
 .cap-bar.over{border-color:var(--crit);box-shadow:0 0 0 1px var(--crit-soft)}
 .cap-legend{display:flex;gap:14px;flex-wrap:wrap;font-size:11.5px;color:var(--ink-2)}
 .cap-legend i{display:inline-block;width:9px;height:9px;border-radius:2px;margin-right:5px;vertical-align:baseline}
-.capacity-input{width:44px;background:transparent;border:0;border-bottom:1px dashed var(--line-2);text-align:right;font-family:var(--mono);padding:0 2px}
+input.capacity-input[type=number]{width:46px;min-width:0;background:transparent;border:0;border-bottom:1px dashed var(--line-2);border-radius:0;text-align:right;font-family:var(--mono);font-size:14px;padding:0 2px}
+input.capacity-input[type=number]:hover{border-bottom-color:var(--accent)}
 
 /* ---------- steps ---------- */
 .steps{max-width:1560px;margin:0 auto;padding:8px 20px 0;display:flex;gap:8px;flex-wrap:wrap;align-items:center}
